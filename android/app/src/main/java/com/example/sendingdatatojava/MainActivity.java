@@ -23,15 +23,15 @@ public class MainActivity extends FlutterActivity {
                                 String val1 = (String) arguments.get("val");
 
                                 if (val1.equals("1")) {
-                                    result.success("datarecived");
+                                    System.out.println("done");
                                 }
                                 else {
-                                    result.success("datarecived");
+                                    System.out.println("notdone");
                                 }
 
                         }
-                );
-    }
-}
+
+    });
+}}
 
 
