@@ -39,7 +39,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
 
   static const platform = const MethodChannel('khurramdev');
-
+  //dartcode
   void fun() async {
     var sendMap = <String, dynamic> {
       'val' : "1"
